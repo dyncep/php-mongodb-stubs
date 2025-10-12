@@ -1,0 +1,15 @@
+{
+  "name": "dyncep/php-mongodb-stubs",
+  "description": "MongoDB PHP extension stubs for IDE autocompletion and type hinting",
+  "provide": {
+    "ext-mongodb": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "MongoDB\\": "MongoDB/"
+    },
+    "files": [
+      "bootstrap.php"
+    ]
+  }
+}
