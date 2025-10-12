@@ -1,6 +1,7 @@
 {
   "name": "dyncep/php-mongodb-stubs",
   "description": "MongoDB PHP extension stubs for IDE autocompletion and type hinting",
+  "license": "MIT",
   "provide": {
     "ext-mongodb": "*"
   },
